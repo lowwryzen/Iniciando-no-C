@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include "funcs.h"
-#include "funcs.c"
 
 int main(void){
     int num1;

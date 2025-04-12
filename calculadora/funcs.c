@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "funcs.h"
 
 void somar(int num1, int num2){
     printf("%i", num1 + num2);
