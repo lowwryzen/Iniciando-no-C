@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "func.h"
-#include "func.c"
 
 int main(){
     char palavra[] = "Bomdia";
