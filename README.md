@@ -2,7 +2,7 @@
 
 ---
 
-<img src= lain-typing-3227816525-3.gif align='right' width=50%>
+<img src= https://github.com/user-attachments/assets/070e9a58-d6aa-4e91-94c5-7ca78efe6041 align='right' width=50%>
 
 >#### Estou estudando C através do curso CS50x e de alguns guias, e também pelo chatgpt. <br> Eu vou deixar alguns códigos que fiz para marcar minha evolução nesse repositório, mas até certo ponto, até eu concluir o que eu acho necessário para começar a criar projetos mais complexos.
 
