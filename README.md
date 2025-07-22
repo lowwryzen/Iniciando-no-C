@@ -2,7 +2,7 @@
 
 ---
 
-<img src= lain-typing-3227816525-1.gif align='right' width=50%>
+<img src= lain-typing-3227816525-3.gif align='right' width=50%>
 
 >#### Estou estudando C através do curso CS50x e de alguns guias, e também pelo chatgpt. <br> Eu vou deixar alguns códigos que fiz para marcar minha evolução nesse repositório, mas até certo ponto, até eu concluir o que eu acho necessário para começar a criar projetos mais complexos.
 
@@ -14,9 +14,9 @@
 
 ### Materiais que de estudo que eu uso:
 
->[CS50x Lectures](https://www.youtube.com/watch?v=h6lqxDwUmJQ&list=PLhQjrBD2T383q7Vn8QnTsVgSvyLpsqL_R)
-[CS50 Manual Pages](https://manual.cs50.io/)
-[Bro code](https://www.youtube.com/watch?v=2ciUcosJFBc&list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe&pp=0gcJCV8EOCosWNin)
+>[CS50x Lectures](https://www.youtube.com/watch?v=h6lqxDwUmJQ&list=PLhQjrBD2T383q7Vn8QnTsVgSvyLpsqL_R) <br>
+[CS50 Manual Pages](https://manual.cs50.io/) <br>
+[Bro code](https://www.youtube.com/watch?v=2ciUcosJFBc&list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe&pp=0gcJCV8EOCosWNin) <br>
 [Guia da linguagem C](https://xumaquer.github.io/mdbook-linguagem-c/)
 
 
