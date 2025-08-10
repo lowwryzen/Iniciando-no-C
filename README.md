@@ -37,7 +37,7 @@
 - ✅ Ponteiros (```* e &```)
 - ✅ Structs e typedef
 - ✅ Enums
-- ❌ Unions
+- ✅ Unions
 - ✅ Alocação na heap (```malloc(), calloc(), realloc() e free()```)
 - ⚠️ I/O arquivos (```fread(), fwrite(), fseek(), etc...```)
 - ✅ Bibliotecas (```#include, #define, .c, .h, etc```)
