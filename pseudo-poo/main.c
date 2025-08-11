@@ -9,7 +9,8 @@ int main(){
 
     altPessoa(john, "nhoJ", 72);
 
-    printf("Pessoa depois: %s, %i", john->nome, john->idade);
+    printf("Pessoa depois: %s, %i\n", john->nome, john->idade);
+    john->info(john);
 
     delPessoa(john);
 
