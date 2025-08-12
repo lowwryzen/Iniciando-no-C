@@ -7,15 +7,18 @@
 #define STRUCT_ERROR 1
 
 Pessoa *newPessoa(char *nome, int idade){      
-    Pessoa *self = malloc(sizeof(Pessoa));   // Alocar memória para struct
+    Pessoa *self = malloc(sizeof(Pessoa));       // Alocar memória para struct
 
-    if(!self) return NULL;
+    if(!self) return NULL;                       // Retornar nulo caso dê erro
 
-    self->nome = malloc(sizeof(self->nome)); // Alocação de string para torná-la independente
+    self->nome = malloc(sizeof(self->nome) + 1); // Alocação de string para torná-la independente
 
-    if (!self->nome) return NULL;
+    if (!self->nome) {                           
+        free(self);                              // Liberar memória da struct caso dê erro, para evitar memory leak
+        return NULL;
+    }
 
-    strcpy(self->nome, nome);                // Copiar string para a parte alocada exclusiva da string
+    strcpy(self->nome, nome);                    // Copiar string para a parte alocada exclusiva da string
     self->idade = idade;
     self->info = info;
 
@@ -28,10 +31,13 @@ void delPessoa(Pessoa *self){
 }
 
 int altPessoa(Pessoa *self, char *nome, int idade){
-    if(!self) return STRUCT_ERROR;
+    if(!self) return STRUCT_ERROR;                      // Retornar 1 (Código definido para Erro de struct) caso dê erro
 
     self->nome = realloc(self->nome, strlen(nome) + 1); // Realocar o campo da string para o novo nome
-    if(!self->nome) return STRUCT_ERROR;
+    if(!self->nome) {
+        free(self->nome);                               // Novamente liberar a struct para evitar memory leak em caso de erro
+        return STRUCT_ERROR;
+    }
 
     strcpy(self->nome, nome);
     self->idade = idade;
