@@ -47,7 +47,6 @@
 - ⚠️ Debugs e testes
 - ❌ Macros
 - ❌ stdarg.h
-- ❌ Macros
 - ❌ Bitwise (```<<, >>, ~, ^```)
 - ❌ unistd.h (```linux```)
 
