@@ -1,6 +1,3 @@
-#ifndef DYNAMIC_STACK_H
-#define DYNAMIC_STACK_H
-
 /*
     Stack Simulation (Linked list Edition)
 
@@ -9,13 +6,17 @@
     Sua desvantagem é o overhead (8 bytes extras do ponteiro para a próxima struct)
 */
 
+#ifndef DYNAMIC_STACK_H
+#define DYNAMIC_STACK_H
+
+
 typedef struct Stack{
     void *value;
     struct Stack *next;
-} Stack;
+} D_Stack;
 
-void dpush(Stack **stack,void *value);
-void dpop(Stack *origin, Stack **end);
-void dnukeStack(Stack **origin);
+void dpush(D_Stack **stack,void *value);
+void dpop(D_Stack *origin, D_Stack **end);
+void dnukeStack(D_Stack **origin);
 
 #endif

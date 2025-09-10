@@ -1,17 +1,17 @@
 #include <stdlib.h>
 
-#include "dynamic_stack.h"
+#include "dynamic_Stack.h"
 
-void dpush(Stack **stack,void *value){
+void dpush(D_Stack **stack,void *value){
     if (!(*stack)) {
-        *stack = malloc(sizeof(Stack));
+        *stack = malloc(sizeof(D_Stack));
         if (!stack) return;
 
         (*stack)->value = value;
         (*stack)->next = NULL;
     }
     else {
-        (*stack)->next = malloc(sizeof(Stack));
+        (*stack)->next = malloc(sizeof(D_Stack));
         if (!(*stack)->next) return;
 
         *stack = (*stack)->next;
@@ -19,8 +19,8 @@ void dpush(Stack **stack,void *value){
     }
 }
 
-void dpop(Stack *origin, Stack **stack_main){
-    Stack *temp = origin;
+void dpop(D_Stack *origin, D_Stack **stack_main){
+    D_Stack *temp = origin;
 
     while(temp){
         if (temp->next == *stack_main){
@@ -32,8 +32,8 @@ void dpop(Stack *origin, Stack **stack_main){
     }
 }
 
-void dnukeStack(Stack **origin){
-    Stack **temp = origin;
+void dnukeStack(D_Stack **origin){
+    D_Stack **temp = origin;
 
     while(*temp){
         free(*temp);
