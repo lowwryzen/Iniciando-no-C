@@ -12,7 +12,7 @@
 typedef struct{
     void *value[1024];
     void *cur;
-    unsigned char index;
+    unsigned short index;
 } S_Stack;
 
 void spush(S_Stack *stack, void* value);
