@@ -46,9 +46,11 @@
 - ⚠️ GCC (compilador)
 - ⚠️ Debugs e testes
 - ❌ Macros
-- ❌ stdarg.h
+- ❌ <stdarg.h>
 - ❌ Bitwise (```<<, >>, ~, ^```)
-- ❌ unistd.h (```linux```)
+- ❌ <unistd.h> (```linux```)
+- ❌ <threads.h>
+- ❌ Bare-metal (`Sem OS, com C e assembly`)
 
 ----
 
