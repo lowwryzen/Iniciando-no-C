@@ -1,13 +1,10 @@
 #include "static_stack.h"
 
 void spush(S_Stack *stack, void* value){
-    static int i = 0;
-    stack->index = i;
-
     stack->value[stack->index] = value;
     stack->cur = stack->value[stack->index];
 
-    i++;
+    stack->index++;
 }
 
 void spop(S_Stack *stack){
