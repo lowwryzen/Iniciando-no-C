@@ -45,12 +45,12 @@
 - ⚠️ Makefiles (automação de compilação)
 - ⚠️ GCC (compilador)
 - ⚠️ Debugs e testes
-- ❌ Macros
+- ✅ Macros
 - ❌ <stdarg.h>
 - ❌ Bitwise (```<<, >>, ~, ^```)
 - ❌ <unistd.h> (```linux```)
 - ❌ <threads.h>
-- ❌ Bare-metal (`Sem OS, com C e assembly`)
+- ⚠️ Bare-metal (`Sem OS, com C e assembly`)
 
 ----
 
