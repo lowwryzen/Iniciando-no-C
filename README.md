@@ -47,7 +47,7 @@
 - ⚠️ Debugs e testes
 - ✅ Macros
 - ❌ <stdarg.h>
-- ❌ Bitwise (```<<, >>, ~, ^```)
+- ✅ Bitwise (```<<, >>, ~, ^```)
 - ❌ <unistd.h> (```linux```)
 - ❌ <threads.h>
 - ⚠️ Bare-metal (`Sem OS, com C e assembly`)
